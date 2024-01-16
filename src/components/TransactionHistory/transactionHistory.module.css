@@ -1,0 +1,23 @@
+table,
+th,
+td {
+  border: 3px solid #04202c;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 7px;
+}
+.transactionHistory {
+  font-size: 20px;
+  color: #04202c;
+  margin: 30px auto;
+}
+.header {
+  background-color: #304040;
+  color: #c9d1c8;
+}
+
+.body {
+  background-color: #c9d1c8;
+  text-align: center;
+}

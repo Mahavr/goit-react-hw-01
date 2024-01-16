@@ -1,0 +1,29 @@
+.friendStatus {
+  font-size: 15px;
+  margin-top: 7px;
+}
+.isOnline {
+  composes: friendStatus;
+  color: #78a5a3;
+}
+.isOffline {
+  composes: friendStatus;
+  color: #ce5a57;
+}
+.item {
+  border: 4px solid #e1b16a;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #444c5c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.avatar {
+  width: 60px;
+}
+.name {
+  color: #e1b16a;
+  margin-top: 5px;
+}
